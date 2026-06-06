@@ -7,12 +7,12 @@ Disciplina: Prompt Engineering and Artificial Intelligence
 
 ## Integrantes
 
-| Nome | RM | Turma |
-|------|-----|-------|
-| [preencher nome completo] | RM: [preencher] | [preencher] |
-| [preencher nome completo] | RM: [preencher] | [preencher] |
+Felipe Pereira Restivo - RM: 570712
+Gabriel Rodrigues Zappelloni - RM: 572060
+Maykon de Lima Silva – RM: 574022
 
-Modalidade: **[Individual / Dupla / Trio — preencher]**
+
+Modalidade: TRIO
 
 ---
 
@@ -64,60 +64,7 @@ Satélite de observação ambiental monitorando focos de incêndio e desmatament
 
 ---
 
-## Como executar
 
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/[usuario]/mission-control-ai.git
-cd mission-control-ai
-```
-
-### 2. Crie e ative o ambiente virtual
-
-```bash
-# Linux / macOS
-python -m venv .venv
-source .venv/bin/activate
-
-# Windows
-python -m venv .venv
-.venv\Scripts\activate
-```
-
-### 3. Instale as dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Configure a API Key
-
-Crie o arquivo `.env` na raiz do projeto (baseado no `.env.example`):
-
-```bash
-# Linux / macOS
-cp .env.example .env
-
-# Windows
-copy .env.example .env
-```
-
-Edite o `.env` e adicione sua chave Ollama Cloud (gerada em https://ollama.com):
-
-```
-OLLAMA_API_KEY=sua_chave_aqui_sem_aspas
-```
-
-> ⚠️ **Nunca commite o arquivo `.env` no GitHub.** O `.gitignore` já está configurado para ignorá-lo.
-
-### 5. Execute o sistema
-
-```bash
-python main.py
-```
-
----
 
 ## Comandos disponíveis na CLI
 
@@ -168,7 +115,7 @@ Os cenários estão documentados em [`data/cenarios.json`](data/cenarios.json). 
 
 ---
 
-## 💼 Proposta de valor / modelo de negócio
+##  Proposta de valor / modelo de negócio
 
 ### 1. Qual o problema real terrestre que esta missão resolve?
 
@@ -195,16 +142,6 @@ Se o satélite operar 100% saudável por um ano, o sistema é capaz de monitorar
 - O sistema não tem persistência entre sessões — o histórico de ciclos é mantido apenas na memória da sessão atual.
 - A geolocalização é um parâmetro de qualidade do sensor, não coordenadas reais de focos — o sistema não mapeia geograficamente os eventos.
 - Dependência de conexão com a internet para acessar o Ollama Cloud.
-
----
-
-## Vídeo de demonstração
-
-🎥 [Assistir demonstração no YouTube](https://www.youtube.com/watch?v=[preencher])
-
-> Configurado como "Não listado" no YouTube.
-
----
 
 ## Estrutura do projeto
 
