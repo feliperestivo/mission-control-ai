@@ -1,0 +1,13 @@
+# Arquivo: GS_2026_1_Grupo[XX]_[TURMA].txt
+# Renomeie este arquivo com o número do grupo e turma antes de submeter
+
+Nome completo e RM de todos os integrantes:
+- [Nome Completo] — RM: [número]
+- [Nome Completo] — RM: [número]
+- [Nome Completo] — RM: [número] (se trio)
+
+Modalidade: [Individual | Dupla | Trio]
+
+Link do repositório GitHub: https://github.com/[usuario]/mission-control-ai
+
+Link do vídeo de demonstração: https://www.youtube.com/watch?v=[id_do_video]

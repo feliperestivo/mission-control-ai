@@ -1,0 +1,56 @@
+{
+  "cenarios": [
+    {
+      "nome": "operacao_normal",
+      "descricao": "Todos os parâmetros dentro do range esperado",
+      "dados": {
+        "sensor_termico": 32.5,
+        "sensor_optico": 94.2,
+        "buffer_imagens": 38.0,
+        "precisao_geoloc": 7.4,
+        "energia_disponivel": 76.0
+      }
+    },
+    {
+      "nome": "foco_incendio_ativo",
+      "descricao": "Temperatura crítica indicando foco de incêndio",
+      "dados": {
+        "sensor_termico": 67.3,
+        "sensor_optico": 88.5,
+        "buffer_imagens": 55.0,
+        "precisao_geoloc": 9.2,
+        "energia_disponivel": 64.0
+      }
+    },
+    {
+      "nome": "sensor_degradado_energia_baixa",
+      "descricao": "Sensor óptico comprometido e energia abaixo do limite",
+      "dados": {
+        "sensor_termico": 41.0,
+        "sensor_optico": 61.5,
+        "buffer_imagens": 48.0,
+        "precisao_geoloc": 11.3,
+        "energia_disponivel": 13.5
+      }
+    },
+    {
+      "nome": "buffer_critico_geoloc_falha",
+      "descricao": "Buffer quase cheio e geolocalização imprecisa",
+      "dados": {
+        "sensor_termico": 38.0,
+        "sensor_optico": 91.0,
+        "buffer_imagens": 92.0,
+        "precisao_geoloc": 24.7,
+        "energia_disponivel": 58.0
+      }
+    }
+  ],
+  "perguntas_sugeridas": [
+    "Como está a missão agora?",
+    "Existe algum foco de incêndio ativo na área monitorada?",
+    "Os dados estão válidos para o relatório DETER de hoje?",
+    "Preciso acionar a brigada? Qual a urgência?",
+    "Qual é o estado do sensor óptico e o impacto no monitoramento de desmatamento?",
+    "O satélite está com risco de perda de dados?"
+  ]
+}
